@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	
+  text-align: center;
+  background: #FFB48E;
+  color: #BF705E;
+  letter-spacing: 5px;
+}
+
+
+
+h1 {
+  position: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 45px;
+  letter-spacing: 9px;
+}
+
+h2 {
+  position: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+  margin: -20px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #905950;
+  margin: -70px;
+}
+
+.topnav {
+    background-color: #FFB48E;
+    overflow: hidden;
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topnav a {
+    color: #905950;
+    padding: 0;
+    margin: 0 10px;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.topnav a:hover {
+    background-color: #FFB48E;
+    color: white;
+}
+
+footer {
+  position: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  letter-spacing: 4px;
+
+}
