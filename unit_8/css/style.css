@@ -34,22 +34,17 @@ p {
 
 h3{
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 13px;
+  position: center;
   color: #905950;
   margin: -70px;
+  letter-spacing: 1px
+  padding: 50;
 }
+
 
 .topnav {
     background-color: #FFB48E;
-    overflow: hidden;
-    padding: 0;
-    margin: 10px;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-.topnav a {
     color: #905950;
     padding: 0;
     margin: 0 10px;
@@ -62,9 +57,28 @@ h3{
     font-size: 13px;
 }
 
-.topnav a:hover {
-    background-color: #FFB48E;
+li a {
+    color: #905950;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+a:link {
+    color: #905950;
+    text-decoration: none;
+    }
+
+a:visited {
+    color: #905950;
+  }
+
+a:hover {
     color: white;
+}
+
+a:active {
+    color: #905950;
 }
 
 footer {
@@ -74,3 +88,17 @@ footer {
   letter-spacing: 4px;
 
 }
+
+.page2 #page2{
+   text-align: center;
+  background: #FFB48E;
+  color: #BF705E;
+  letter-spacing: 5px;
+  position: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 45px;
+  letter-spacing: 9px;
+  position: center;
+  margin: -20px;
+}
+
